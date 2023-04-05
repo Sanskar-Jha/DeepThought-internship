@@ -1,0 +1,89 @@
+.d_flex {
+    display: flex;
+}
+
+.justify_between {
+    justify-content: space-between;
+}
+
+.justify_around {
+    justify-content: space-around;
+}
+
+.justify_evenly {
+    justify-content: space-evenly;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.h_primary {
+    font-family: 'Zuume';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 81px;
+    letter-spacing: 6.78641px;
+    text-transform: uppercase;
+}
+
+.font_14 {
+    font-size: 14px !important;
+}
+
+.opacity_07 {
+    opacity: 0.7;
+}
+
+.opacity_0 {
+    opacity: 100%;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.common_properties {
+    font-family: 'Visby CF';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 1px;
+}
+
+.border {
+    border: 2px solid white;
+}
+
+.margin_auto {
+    margin: auto;
+}
+
+.font_weight_bold {
+    font-weight: bold;
+}
+
+.background_transparent {
+    background: transparent;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.show_display {
+    display: block;
+}
+
+.hide_display {
+    display: none;
+}
+
+.width_auto {
+    width: auto;
+}
+
+.accordion {
+    /* transform: translateY(-35rem); */
+}

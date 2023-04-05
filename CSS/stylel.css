@@ -1,0 +1,422 @@
+/* CSS Rest */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--dark-color);
+    color: var(--white-color);
+}
+
+/* ROOTS */
+:root {
+    --danger-color: red;
+    --white-color: white;
+    --dark-color: black;
+}
+
+/* Header-Navbar */
+#navbar {
+    padding: 4rem 6rem;
+}
+
+#logo sup {
+    color: var(--danger-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 8.8rem;
+    top: 4rem;
+}
+
+#profile_icon img {
+    background: linear-gradient(95deg, var(--white-color) -343.09%, rgba(255, 255, 255, 0) 110.96%);
+    border-radius: 2rem;
+}
+
+#profile_icon i {
+    font-size: 1.4rem;
+    position: absolute;
+    right: 6.85rem;
+    top: 4.7rem;
+}
+
+/* Section-Common Share */
+#image {
+    width: 534px;
+    height: 704px;
+}
+
+#image img {
+    height: 44rem;
+    width: 33rem;
+}
+
+#common_share {
+    margin: auto;
+    width: 87%;
+}
+
+#common_share_info {
+    width: 54%;
+}
+
+.sub_h {
+    font-size: 12px;
+    opacity: 0.5;
+    padding: 0.3rem 0rem;
+}
+
+#asset_container {
+    height: 4rem;
+    width: 64%;
+}
+
+/* Section-Common Share > Sale-end */
+#sale_end {
+    border: 2px solid #ffffff54;
+    padding: 2rem;
+    /* width: 599px; */
+    height: 492px;
+    margin-top: 3rem;
+}
+
+.sale_end_time {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    opacity: 100%;
+    padding: 0;
+}
+
+.sale_detail {
+    padding: 2rem;
+}
+
+.items {
+    font-family: 'Zuume';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+#amount {
+    width: 11%;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    padding: 0.2rem 0.6rem;
+    justify-content: space-between;
+}
+
+#sold_out_items {}
+
+#sold_out_items i {
+    font-size: 1rem;
+}
+
+#checkbox {
+    margin-right: 1rem;
+}
+
+#pay_btn {
+    width: 174px;
+    height: 56px;
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    background: radial-gradient(86.07% 145.35% at 28.05% 86.07%, #3E67FF 0%, #E47298 100%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#pay_btn:hover {
+    box-shadow: 0px 0px 13px 0px var(--white-color);
+}
+
+.btn_container {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Section- Investment Benefits */
+#investment_benefits {
+    width: 87%;
+    height: auto;
+    border: 2px solid #ffffff52;
+    margin: 2rem auto;
+}
+
+.h_secondary {
+    padding: 1rem 5rem;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.sub_h_secondary {
+    font-weight: 600 !important;
+    font-size: 20px;
+    line-height: 140% !important;
+    width: 816.63px;
+}
+
+.investment_steps_para {
+    margin: 1rem 0rem;
+    width: 832.89px;
+    font-size: 18px;
+    line-height: 144% !important;
+}
+
+.investment_steps {
+    border-top: 2px solid #ffffff52;
+    padding: 2rem 5rem;
+}
+
+#negative_sign {
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.investment_steps_2 {
+    width: 88%;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 2rem 0rem;
+}
+
+.positive_sign {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+#add {
+    /* transition: all 0.5s ease-out 0s; */
+}
+
+/* Section- Investment Terms and Risks */
+#investment_terms,
+#investment_risks,
+#process_to_buy,
+#connected,
+#more_suggestion {
+    width: 87%;
+    height: auto;
+    border: 2px solid #ffffff52;
+    margin: 4rem auto;
+}
+
+#process_to_buy {
+    height: auto;
+}
+
+/* Section- Investment Terms and Risks */
+#blank_img {
+    width: 394px;
+    height: 312px;
+    border: 2px solid #ffffff52;
+    overflow: hidden;
+}
+
+#process_h {
+    padding: 2rem;
+}
+
+.process_items {
+    width: 488.92px;
+}
+
+#buy_info_container {
+    width: 58%;
+}
+
+#buy_info_sub_container {
+    border: none;
+    padding: 0;
+}
+
+/* Section- Contact Page */
+#connected {
+    height: auto;
+}
+
+.contact_box {
+    width: 342px;
+    height: 342px;
+    background: #222222;
+}
+
+.text {
+    position: relative;
+    left: 3rem;
+    top: 4rem;
+    /* font-size: 2rem; */
+    background: transparent;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 116% !important;
+}
+
+.game_icon {
+    position: relative;
+    top: 9rem;
+    left: 3rem;
+    font-size: 3rem;
+    background: transparent;
+}
+
+#join_string {
+    top: 5rem;
+}
+
+.icons {
+    margin-right: 3rem;
+}
+
+/* Section- More Suggestion */
+#more_suggestion {
+    border: none;
+    border-top: 2px solid #ffffff52;
+    /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); */
+    padding-top: 4rem;
+}
+
+#more_suggestion h4 {
+    padding: 2rem 0rem;
+    font-weight: 600 !important;
+    font-size: 28px;
+    line-height: 44px !important;
+    letter-spacing: normal !important;
+}
+
+#more_suggestion_h {
+    width: 32%;
+}
+
+#icon_arrow {
+    width: 16%;
+}
+
+.L_R_arrow {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    background: #272C33;
+}
+
+.more_suggestion_container {
+    background: #121212;
+    border-radius: 16.6285px;
+    padding: 1rem;
+}
+
+.unpalsh_img {
+    border-radius: 11.0857px;
+    margin-bottom: 2rem;
+}
+
+.unpalsh_img img {
+    width: 257.74px;
+    height: 175.29px;
+}
+
+.price_and_buyBtn {
+    background: #080808;
+    border-radius: 11.0857px;
+    margin: 2rem 0.1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.string {
+    font-weight: 600 !important;
+    font-size: 12.4714px;
+    line-height: 19px !important;
+    letter-spacing: normal !important;
+}
+
+.sub_string {
+    font-weight: 400 !important;
+    font-size: 11.0857px !important;
+    line-height: 17px !important;
+}
+
+.price {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9.69998px;
+    line-height: 14px;
+}
+
+#btn {
+    font-weight: 700 !important;
+    font-size: 9.69998px !important;
+    line-height: 14px !important;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.buy_btn {
+    width: 79.68px;
+    height: 29.79px;
+    border-radius: 75.4456px;
+    background: radial-gradient(86.07% 145.35% at 28.05% 86.07%, #3E67FF 0%, #E47298 100%);
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sub_logo {
+    border-radius: 2rem;
+}
+
+.view_more_btn {
+    width: 208px;
+    height: 54px;
+    border: 1px solid var(--white-color);
+    border-radius: 2rem;
+    justify-content: center;
+    margin: 4rem auto;
+    cursor: pointer;
+}
+
+.view_more_btn button {
+    text-transform: uppercase;
+    font-family: 'Poppins' !important;
+    font-size: 12px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+#more_suggestion {
+    height: auto;
+    margin: 0rem 6rem;
+}
+
+/* Section- Footer */
+.foot {
+    margin: 0rem 6rem;
+    padding: 2rem 0rem;
+}
+
+#nav {
+    width: 46%;
+}
+
+#nav li {
+    list-style: none;
+}
+
+#nav li a {
+    text-decoration: none;
+    font-weight: 400 !important;
+    font-size: 16px;
+    line-height: 25px !important;
+    opacity: 0.4;
+    letter-spacing: normal;
+}
+
+#nav li a:hover {
+    opacity: 1;
+}
+
+.sign {
+    cursor: pointer;
+}
